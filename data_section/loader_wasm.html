@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hello example</title>
+</head>
+<body>
+<script>
+function utf8ToString(m_view, m_offset) {
+	let s = "";
+	for (i = m_offset; m_view[i]; i++) {
+	  s += String.fromCharCode(m_view[i]);
+	}
+	return s;
+}
+WebAssembly.instantiateStreaming(fetch('wasm_polyglot_data.wasm'), {})
+	.then(obj => {
+		// get view on the wasm module memory
+		var m_view = new Uint8Array(obj.instance.exports.memory.buffer);
+		// call the exported "hello" wasm function
+		var m_offset = obj.instance.exports.hello();
+		console.log("congratz ;)");
+		// print string at offset in memory
+		console.log(utf8ToString(m_view, m_offset));
+	});
+</script>
+</body>
+</html>
