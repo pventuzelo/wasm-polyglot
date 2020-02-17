@@ -19,6 +19,6 @@ For the script `polyglot_custom_generator.py`, you will need to install:
 Patrick Ventuzelo - [@pat_ventuzelo](https://twitter.com/pat_ventuzelo) - Independent Security Researcher.
 
 
-More details about my trainings:
-* 4-days **WebAssembly security** training: [here](https://webassembly-security.com/trainings/)
+More details about my [trainings](https://webassembly-security.com/trainings/):
+* 4-days **WebAssembly security** training: [here](https://webassembly-security.com/wasm-security-training/)
 * 2-days **Rustlang security** training: [here](https://webassembly-security.com/rust-security-training/)
