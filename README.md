@@ -14,11 +14,10 @@ For the script `polyglot_custom_generator.py`, you will need to install:
 * python3.
 * [python-ext-wasm](https://github.com/wasmerio/python-ext-wasm).
 
-# Trainings & contact
+# Trainings & Contact
 
-Patrick Ventuzelo - [@pat_ventuzelo](https://twitter.com/pat_ventuzelo) - Independent Security Researcher.
+Patrick Ventuzelo - [@pat_ventuzelo](https://twitter.com/pat_ventuzelo) - Independent Security Researcher / Trainer.
 
-
-More details about my [trainings](https://webassembly-security.com/trainings/):
-* 4-days **WebAssembly security** training: [here](https://webassembly-security.com/wasm-security-training/)
-* 2-days **Rustlang security** training: [here](https://webassembly-security.com/rust-security-training/)
+Consulting & trainings:
+* 4-days **WebAssembly security** training: [here](https://fuzzinglabs.com/trainings/)
+* 2-days **Rust security** training: [here](https://fuzzinglabs.com/rust-security-training/)
