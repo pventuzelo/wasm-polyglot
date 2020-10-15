@@ -1,6 +1,6 @@
 # wasm-polyglot
 
-[How to create a valid polyglot HTML/JS/WebAssembly module​](https://webassembly-security.com/polyglot-webassembly-module-html-js-wasm/)
+[How to create a valid polyglot HTML/JS/WebAssembly module​](https://fuzzinglabs.com/polyglot-webassembly-module-html-js-wasm/)
 
 # Polyglot using the wasm Data section
 
@@ -16,8 +16,6 @@ For the script `polyglot_custom_generator.py`, you will need to install:
 
 # Trainings & Contact
 
-Patrick Ventuzelo - [@pat_ventuzelo](https://twitter.com/pat_ventuzelo) - Independent Security Researcher / Trainer.
-
-Consulting & trainings:
-* 4-days **WebAssembly security** training: [here](https://fuzzinglabs.com/trainings/)
-* 2-days **Rust security** training: [here](https://fuzzinglabs.com/rust-security-training/)
+Patrick Ventuzelo - [@pat_ventuzelo](https://twitter.com/pat_ventuzelo)
+* Independent Security Researcher / Trainer.
+* FREE online courses: [here](https://academy.fuzzinglabs.com/)
